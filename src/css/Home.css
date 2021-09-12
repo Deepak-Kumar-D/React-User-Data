@@ -1,0 +1,70 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.user-container > h1 {
+  background-color: #202020;
+  color: #b8cc5e;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  font-weight: 300;
+  font-size: large;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+}
+
+.user-box {
+  margin: 1.2rem;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  background-color: #202020;
+}
+
+.user-data {
+  margin: 1rem;
+}
+
+.user-data > p {
+  color: #b8cc5e;
+  padding-top: 0.5rem;
+  font-size: medium;
+}
+
+.user-avatar {
+  background-color: #b8cc5e;
+  padding: 0.5rem;
+  border: 2px solid white;
+}
+
+.user-avatar > img {
+  width: 150px;
+}
+
+.user-data button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+
+.user-data button:hover {
+  filter: contrast(1.5);
+}
+
+.edit-user {
+  background-color: #1d4adc;
+}
+
+.delete-user {
+  margin-left: 1rem;
+  background-color: #fa2c2c;
+}

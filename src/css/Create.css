@@ -1,0 +1,55 @@
+.create-user {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-user > h1 {
+  background-color: #202020;
+  color: #b8cc5e;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  font-weight: 300;
+  font-size: large;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+}
+
+.create-user > form {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  border: 3px solid #b8cc5e;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #202020;
+}
+
+.create-user > form > label {
+  color: #b8cc5e;
+}
+
+.create-user > form > input {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.create-user > form > input[type="submit"] {
+  border: none;
+  background-color: #b8cc5e;
+  cursor: pointer;
+  font-weight: bold;
+  color: #202020;
+}
+
+.create-user > form > input[type="submit"]:hover {
+  filter: saturate(1.5);
+}

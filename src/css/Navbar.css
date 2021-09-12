@@ -1,0 +1,39 @@
+.navbar {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > h3 {
+  color: #d5dce4fa;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > h3 > span {
+  display: flex;
+  padding-right: 0.2rem;
+  color: #b8cc5e;
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #d5dce4fa;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+.navbar > ul > li > a:hover {
+  color: #b8cc5e;
+}
